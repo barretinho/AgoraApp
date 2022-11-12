@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    text-decoration: none;
+    border: none;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    min-height: 40vh;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.container .header {
+    text-align: center;
+    width: 100%;
+}
+
+.container .header img {
+    width: 14rem;
+}
+
+h2 {
+  color: #4070f4;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2px 8px;
+    margin: 0.4rem 0;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+i {
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.btnbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2px 8px;
+    margin: 0.4rem 0; 
+    background: #4070f4;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+#entrar {
+    background: #4070f4;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+}
+
+input::placeholder {
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.checkbox-text {
+    text-align: end;
+    font-size: 0.7rem;
+    width: 100%;
+}
+
+.description {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.description a {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-text a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
+
+
+
