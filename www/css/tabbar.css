@@ -1,0 +1,33 @@
+
+.tabbar {
+    position: fixed;
+    bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tabbar .btn_box {
+    padding: 0.3rem 0rem;
+}
+
+.tabbar .btn_box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 1.6rem;
+}
+
+.tabbar .btn_box a span {
+    font-size: 0.6rem;
+    color: #000;
+}
+
+.tabbar .btn_box a i {
+    font-size: 1.2rem;
+    color: #000;
+}
