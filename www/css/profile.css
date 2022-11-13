@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .username {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0rem;
+    width: 84%;
+    font-size: 1rem;
+    color: #4070f4;
+    font-weight: 500;
+}
+
+.container .username i {
+    font-size: 1.6rem;
+    color: #4070f4;    
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    width: 84%;
+}
+
+.container .header .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header .stats .post {
+    margin: 1rem;
+}
+
+.container .recado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 84%;
+}
+
+.container .recado #user_name {
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+}
+
+.add {
+    padding: 0 0.4rem;
+}
+
+.container .btn_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%; 
+    margin-top: 1.6rem;
+    background: #4070f4;
+}
+
+.container .btn_box .btn_edit {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+}
+
+.photo_perfil {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.man {
+  text-align: center;
+  position: fixed;
+  top: 70%;
+  padding: 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  color: #942e30;
+  width: 330px;
+  background: #f8d7da;
+}
