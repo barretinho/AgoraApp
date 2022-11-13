@@ -25,10 +25,32 @@
           </div>
           <div class="body_comment">
             <div class="user_data">
-              <a id="name_user" href="#"><strong id="titulo_obra">Saldivar...</strong><p id="nome_usuario">gamao</p></a>
+              <a id="name_user" href="#"><strong id="titulo_obra">O Palhaço</strong><p id="nome_usuario">gamao</p></a>
             </div>
             <div class="comment_user">
-              <p class="comment">Pq és tão belo Saldivar, com esse sorriso<button>...Ler Mais</button></p>
+              <p class="comment">Um mistério que envolve um palhaço, um site e um pacto sangrento que irá custar a vida de seus usuários.  <button id="open-modal"><i class="fa-solid fa-plus"></i>saiba mais</button></p>
+
+                <div class="modalContainer">
+                    <div id="fade" class="hide"></div>
+
+                    <div id="modal" class="hide">
+                        <div class="modal-header">
+                            <h2>Titulo da Obra</h2>
+                            <button id="close-modal"><i class="uil uil-multiply"></i></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="">
+
+                            </div>
+                            <div class="sinopse">
+                                Um mistério que envolve um palhaço, um site e um pacto sangrento que irá custar a vida de seus usuários.
+                            </div>
+                            <div class=""></div>
+                            <div class=""></div>
+                        </div>
+                </div>
+            </div>
             </div>
             <div class="action">
                 <div class="btn">
@@ -77,5 +99,30 @@
             </a>
         </div>
     </div>
+
+
+
+
+            <script>
+
+
+                const openModalButton = document.querySelector("#open-modal");
+const closeModalButton = document.querySelector("#close-modal");
+const modal = document.querySelector("#modal");
+const fade = document.querySelector("#fade");
+
+const toggleModal = () => {
+  modal.classList.toggle("hide");
+  fade.classList.toggle("hide");
+};
+
+[openModalButton, closeModalButton, fade].forEach((el) => {
+  el.addEventListener("click", () => toggleModal());
+});
+            </script>
 </body>
 </html>
+
+
+
+
