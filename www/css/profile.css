@@ -80,6 +80,7 @@ body {
     width: 84%; 
     margin-top: 1.6rem;
     background: #4070f4;
+    border-radius: 0.6rem;
 }
 
 .container .btn_box .btn_edit {
