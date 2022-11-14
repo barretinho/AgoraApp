@@ -157,11 +157,70 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 300px;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
   padding: 1.2rem;
   border-radius: 0.5rem;
   z-index: 10;
+}
+
+.modalContainer .modal-body {
+    padding: 1rem;
+}
+
+#img_capa img {
+    width: 10rem;
+}
+
+.modalContainer .modal-body .stats_obra {
+    padding: 1.5rem;
+}
+
+.modalContainer .modal-body .stats_obra h2 {
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+}
+
+.modalContainer .modal-body .btn_rdc {
+    padding: 0.2rem 1rem;
+}
+
+.modalContainer .modal-body .btn_rdc #ler {
+    width: 100%;
+    padding: 0.5rem;
+    background: #4070f4;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.modalContainer .modal-body .sinopse {
+    padding: 0.2rem 1.5rem;
+    margin-bottom: 0.5rem; 
+}
+
+.modalContainer .modal-body .sinopse p {
+    font-size: 0.8rem;
+    color: #292828;
+}
+
+.modalContainer .modal-body #tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.2rem 1.5rem 1.5rem 1.5rem;  
+}
+
+.modalContainer .modal-body #tags p {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    margin: 0.2rem;
+    background: #efefef;
+    border-radius: 1rem;
+    color: #353434;
 }
 
  .modalContainer #fade,  .modalContainer #modal {
@@ -172,31 +231,15 @@ body {
 }
 
  .modalContainer .modal-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: default;
-          flex-direction: default;
-  padding: 1rem;
-}
-
- .modalContainer .modal-header h2 {
-  font-size: 1rem;
+     text-align: right;
+    padding: 1rem;
 }
 
  .modalContainer .modal-header #close-modal {
   cursor: pointer;
-  font-size: 1rem;
-  padding: 1rem;
-  color: red;
+  font-size: 1.4rem;
+  padding: 0.4rem 1rem;
+  color: #4070f4;
   background: none;
 }
 
@@ -207,6 +250,13 @@ body {
 
  .modalContainer #modal.hide {
   top: 0;
+}
+
+#open-modal {
+    background: none;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
 }
 
 .sinopse {
