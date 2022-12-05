@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    text-decoration: none;
+    border: none;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header #post {
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.8rem;
+    letter-spacing: 1px;
+    background: #4070f4;
+    color: #fff;
+}
+
+.header button {
+    background: none;
+    padding: 0.4rem 0.9rem;
+    font-size: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .input {
+    padding: 1.5rem;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    font-size: 0.8rem;
+    color: #4070f4;
+    display: block;    
+}
+
+label i {
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid #4070f4;    
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.input .dica {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #4070f4;
+}
+
+.box {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.box label {
+    margin-bottom: 0.4rem;
+}
+
+.box input[type="text"] {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0.4rem;
+    width: 100%;
+}

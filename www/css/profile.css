@@ -110,3 +110,131 @@ body {
   width: 330px;
   background: #f8d7da;
 }
+
+ .modalContainer {
+  text-align: left;
+  width: 60%;
+}
+
+ .modalContainer .btnAdd {
+  background: none;
+  color: #35187f;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+}
+
+ .modalContainer #fade {
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+
+ .modalContainer #modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  z-index: 10;
+}
+
+.modalContainer .modal-body {
+    padding: 1rem;
+}
+
+.modalContainer .modal-body .stats_obra {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1.5rem;
+}
+
+.modalContainer .modal-body .stats_obra h2 {
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+}
+
+.modalContainer .modal-body .btn_rdc {
+    padding: 0.2rem 1rem;
+}
+
+.modalContainer .modal-body .btn_rdc #ler {
+    width: 100%;
+    padding: 0.5rem;
+    background: #4070f4;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.modalContainer .modal-body .sinopse {
+    padding: 0.2rem 1.5rem;
+    margin-bottom: 0.5rem; 
+}
+
+.modalContainer .modal-body .sinopse p {
+    font-size: 0.8rem;
+    color: #292828;
+}
+
+.modalContainer .modal-body #tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.2rem 1.5rem 1.5rem 1.5rem;  
+}
+
+.modalContainer .modal-body #tags p {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    margin: 0.2rem;
+    background: #efefef;
+    border-radius: 1rem;
+    color: #353434;
+}
+
+ .modalContainer #fade,  .modalContainer #modal {
+  -webkit-transition: 0.5s;
+  transition: 0.3s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+ .modalContainer .modal-header {
+     text-align: right;
+    padding: 1rem;
+}
+
+ .modalContainer .modal-header #close-modal {
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 0.4rem 1rem;
+  color: #4070f4;
+  background: none;
+}
+
+ .modalContainer #modal.hide,  .modalContainer #fade.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+ .modalContainer #modal.hide {
+  top: 0;
+}
+
+#open-modal {
+    background: none;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+}
