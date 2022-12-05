@@ -174,6 +174,8 @@ body {
 }
 
 .modalContainer .modal-body .stats_obra {
+    display: flex;
+    justify-content: space-between;
     padding: 0.8rem 1.5rem;
 }
 
@@ -261,4 +263,14 @@ body {
 
 .sinopse {
     font-size: 0.9rem;
+}
+
+.fav {
+    text-align: end;
+}
+
+.fav button {
+    background: none;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
