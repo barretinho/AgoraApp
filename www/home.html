@@ -62,7 +62,20 @@
         </div>
 
 
-        <button id="new_msg"><i class="uil uil-plus"></i></button>
+        <button id="new_msg"><i class="uil uil-plus"></i></button> 
+                <div class="modalContainer">
+                    <div id="fade" class="hide"></div>
+
+                    <div id="modal" class="hide">
+                        <div class="modal-header">
+                            <button id="close-modal"><i class="uil uil-multiply"></i></button>
+                        </div>
+
+                        <div class="modal-body">
+saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        </div>
+                </div>   
+
     </main>
 
     <div class="tabbar">
@@ -98,7 +111,7 @@
             <script>
 
 
-                const openModalButton = document.querySelector("#open-modal");
+const openModalButton = document.querySelector("#open-modal");
 const closeModalButton = document.querySelector("#close-modal");
 const modal = document.querySelector("#modal");
 const fade = document.querySelector("#fade");
@@ -111,7 +124,10 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((el) => {
   el.addEventListener("click", () => toggleModal());
 });
-            </script>
+
+///
+
+</script>
 </body>
 </html>
 

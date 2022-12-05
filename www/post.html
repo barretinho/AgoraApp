@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/tabbar.css">
+  <link rel="stylesheet" href="css/post.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header class="header">
+        <a href="home.html" id="close"><i class="uil uil-multiply"></i></a>
+        <button id="post">Públicar  </button>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="input">
+          <div class="div">
+            <p class="dica">Capa</p>
+            <label for="capa"><i class="uil uil-camera-plus"></i></label>
+            <input type="file" name="capa" id="capa">
+          </div>
+        </div>
+
+        <br>
+
+        <div class="box">
+            <label for="titulo">Titulo do Obra</label>
+            <input type="text" name="titulo" id="titulo" placeholder="Digite aqui">
+        </div>
+
+        <div class="boxSinopse">
+            <label for="sinopse">Sinopse Obra</label>
+            <textarea name="sinopse" id="sinopse" cols="30" rows="5" placeholder="Digite aqui"></textarea>
+        </div>
+    </main>
+</body>
+</html>
