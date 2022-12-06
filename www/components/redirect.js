@@ -17,3 +17,7 @@ function editProfile() {
 function voltaHomepage() {
     location.href = "index.html"
 }
+
+function config() {
+    location.href = "config.html"
+}
