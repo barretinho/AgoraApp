@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/tabbar.css">
   <link rel="stylesheet" href="css/post.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <script src="https://cdn.tiny.cloud/1/oi341z8svhxb4a20ci70csst69gg4cux1zijvy2wl7hac54z/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 <body>
     <header class="header">
@@ -26,9 +27,24 @@
         <div class="boxObra">
             <label for="ObraCompleta">Enredo Obra</label>
             <textarea name="ObraCompleta" id="ObraCompleta" cols="30" rows="15" placeholder="Digite aqui"></textarea>
-        </div>
+        </div><br>
       </div>
     </main>
+
+    <script>
+        tinymce.init({
+        selector: 'textarea#ObraCompleta',
+        plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect',
+        toolbar: 'blocks fontsize | bold italic underline | spellcheckdialog a11ycheck | align lineheight | checklist numlist bullist indent outdent | removeformat',
+        tinycomments_mode: 'embedded',
+        menubar:false,
+        tinycomments_author: 'Author name',
+        mergetags_list: [
+            { value: 'First.Name', title: 'First Name' },
+            { value: 'Email', title: 'Email' },
+        ]
+        });
+    </script>
 
 </body>
 </html>
