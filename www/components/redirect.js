@@ -13,3 +13,7 @@ function cancelEdit() {
 function editProfile() {
     location.href = "editProfile.html";
 }
+
+function voltaHomepage() {
+    location.href = "index.html"
+}

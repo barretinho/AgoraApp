@@ -38,3 +38,31 @@ body {
     font-size: 0.6rem;
     letter-spacing: 1px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .toolbar {
+    text-align: left;
+    width: 100%;
+}
+
+.container .toolbar .voltar {
+    font-size: 2rem;
+    padding: 0rem 1rem 0rem 1rem;
+    background: none;
+}
+
+.container .headerBox #titulo {
+    font-size: 1.8rem;
+    margin: 1.4rem 0rem;
+}
+
+.container #enredo {
+    padding: 0 1.2rem;
+    font-size: 0.9rem;
+}
