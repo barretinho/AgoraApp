@@ -18,8 +18,8 @@ function voltaHomepage() {
     location.href = "index.html";
 }
 
-function config() {
-    location.href = "config.html";
+function sair() {
+    location.href = "login.html";
 }
 
 function paginas() {
