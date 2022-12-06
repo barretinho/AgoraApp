@@ -29,3 +29,11 @@ function paginas() {
 function enredo() {
     location.href = "enredo.html";
 }
+
+function addCapitulo() {
+    location.href = "enredo.html";
+}
+
+function close() {
+    location.href = "profile.html";
+}
