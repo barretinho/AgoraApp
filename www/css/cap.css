@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    text-decoration: none;
+    border: none;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #4070f4;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar button {
+    padding: 0.4rem;
+    background: none;
+}
+
+.navbar #addCapitulo {
+    margin-right: 0.4rem;
+}
+
+.navbar button i {
+    font-size: 1.2rem;
+    color: #4070f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.container .capitulo_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 80%;
+    color: rgb(68, 67, 67);
+}
+
+.container .capitulo_card .titulo_capitulo {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container .capitulo_card .btn_cap {
+    background: none;
+    font-size: 1.2rem;
+}

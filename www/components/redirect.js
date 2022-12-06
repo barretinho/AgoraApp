@@ -15,9 +15,17 @@ function editProfile() {
 }
 
 function voltaHomepage() {
-    location.href = "index.html"
+    location.href = "index.html";
 }
 
 function config() {
-    location.href = "config.html"
+    location.href = "config.html";
+}
+
+function paginas() {
+    location.href = "capitulus.html"; 
+}
+
+function enredo() {
+    location.href = "enredo.html";
 }
